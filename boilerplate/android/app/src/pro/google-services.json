@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "779346109460",
+    "project_id": "boilerplate-aaron-tech",
+    "storage_bucket": "boilerplate-aaron-tech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779346109460:android:b6d253a2b9fda2649b7301",
+        "android_client_info": {
+          "package_name": "com.aarontech.boilerplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKXo2tcww6Zt4G4ndxMELYsKrWvuX5VGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779346109460:android:11b0bd1bdd7dd8629b7301",
+        "android_client_info": {
+          "package_name": "com.aarontech.boilerplate.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKXo2tcww6Zt4G4ndxMELYsKrWvuX5VGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779346109460:android:1943528252cdf1bb9b7301",
+        "android_client_info": {
+          "package_name": "com.aarontech.boilerplate.sta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKXo2tcww6Zt4G4ndxMELYsKrWvuX5VGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

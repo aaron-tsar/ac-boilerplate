@@ -1,0 +1,12 @@
+{
+  "FLAVOR": "sta",
+  "FLUTTER_BUILD_NAME": "1.0.0",
+  "FLUTTER_BUILD_NUMBER_IOS": "1",
+  "FLUTTER_BUILD_NUMBER_ANDROID": "1",
+  "IOS_APP_ID": "6478430687",
+  "IOS_DEVELOPMENT_TEAM": "89T7SNPXPX",
+  "BUNDLE_ID":"com.aarontech.boilerplate.sta",
+  "DISPLAY_NAME": "AT Boilerplate STA",
+  "APP_ICON": "AppIcon-sta",
+  "BASE_URL": "https://server-sta.io.vn"
+}
