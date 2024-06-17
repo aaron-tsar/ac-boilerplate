@@ -42,7 +42,9 @@ class FirebaseAnalyticsService {
     DLog.info("Logging event $name to Analytics, params: ${params.toString()}");
     return _analytics.logEvent(
       name: name,
-      parameters: params,
+      parameters: <String, Object>{
+        ...params.map((key, value) => MapEntry(key, value is num ? value : value.toString())),
+      },
     );
   }
 }
