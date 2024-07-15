@@ -1,12 +1,12 @@
 FIREBASE_PROJECT=csm-logistics-vn
-DEV_BUNDLE_ID=com.csmlog.hub.beta
-PRO_BUNDLE_ID=com.csmlog.hub
+DEV_BUNDLE_ID=com.aarontech.boilerplate.dev
+PRO_BUNDLE_ID=com.aarontech.boilerplate
 
 DEV_SUFFIX=dev
 PRO_SUFFIX=pro
 
 SUBMIT_ACCOUNT=aaron.vu.tech@gmail.com
-PASSWORD_ACCOUNT=fwxg-lonk-lqkc-mqxu
+PASSWORD_ACCOUNT=<APPLE_PASSWORD>
 
 FIREBASE_APP_ID=1:450787992763:android:4a351f3530459cfa9f759e
 
