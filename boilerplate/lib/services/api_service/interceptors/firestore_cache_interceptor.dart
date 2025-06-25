@@ -21,16 +21,16 @@ class FireStoreCacheInterceptor extends InterceptorsWrapper {
 
   void init() async {
 
-    fireStore.runTransaction((transaction) async {
-      final dayCheck = await transaction.get(entryCacheDoc);
-      if(dayCheck.exists) {
-        final currentDayCheck = dayCheck.data();
-        if(currentDayCheck is Map && currentDayCheck[entryCacheParam] != now) {
-          await removeAllCached();
-          transaction.set(entryCacheDoc, {entryCacheParam: now});
-        }
-      }
-    });
+    // fireStore.runTransaction((transaction) async {
+    //   final dayCheck = await transaction.get(entryCacheDoc);
+    //   if(dayCheck.exists) {
+    //     final currentDayCheck = dayCheck.data();
+    //     if(currentDayCheck is Map && currentDayCheck[entryCacheParam] != now) {
+    //       await removeAllCached();
+    //       transaction.set(entryCacheDoc, {entryCacheParam: now});
+    //     }
+    //   }
+    // });
   }
 
   Future<void> removeAllCached() async {
